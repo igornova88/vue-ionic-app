@@ -11,5 +11,18 @@
 <script>
 
 export default {
+  data() {
+    return {
+      idFromRoute: null
+    }
+  },
+  computed: {
+
+  },
+  watch: {
+    '$route'(currentRoute) {
+      this.idFromRoute = currentRoute.params.id;
+    }
+  }
 }
 </script>
