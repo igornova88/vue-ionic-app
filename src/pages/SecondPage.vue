@@ -1,5 +1,5 @@
 <template>
-  <base-layout page-title="Second Page " page-default-back-link="first-page">
+  <base-layout page-title="Second Page " page-default-back-link="/first-page">
 
       <h2>second</h2>
 
