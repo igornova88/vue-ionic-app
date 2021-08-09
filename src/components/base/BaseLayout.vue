@@ -1,4 +1,5 @@
 <template>
+
   <ion-page>  <!-- best practice is to user ion-page as root component -->
 
     <ion-header>
@@ -6,12 +7,14 @@
         <ion-buttons slot="start">
           <ion-back-button></ion-back-button>
         </ion-buttons>
-          <ion-title> {{ pageTitle }} 22222 </ion-title>
+        <ion-title> {{ pageTitle }} 22222 </ion-title>
       </ion-toolbar>
     </ion-header>
+
     <ion-content>
-      <slot />
+      <slot />    <!-- here we put actuall page content -->
     </ion-content>
+
   </ion-page>
 </template>
 
