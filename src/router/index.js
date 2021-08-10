@@ -11,12 +11,12 @@ const routes = [
     component: FirstPage
   },
   {
-    path: '/camera-page',
-    component: FirstPage
-  },
-  {
     path: '/second-page/:id',
     component: () => import('../pages/SecondPage.vue')        // lazy loading - it will not be loaded on start, but when needed
+  },
+  {
+    path: '/camera-page',
+    component: () => import('../pages/CameraPage.vue')        // lazy loading - it will not be loaded on start, but when needed
   }
 ]
 

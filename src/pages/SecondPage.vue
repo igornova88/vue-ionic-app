@@ -1,8 +1,8 @@
 <template>
   <base-layout page-title="Second Page " page-default-back-link="/first-page">
 
-      <h2>second</h2>
-
+      <h2> {{ idFromRoute }} </h2>
+      <h3> {{ loadedItem.desc }} </h3>
       
 
   </base-layout>
@@ -13,16 +13,22 @@
 export default {
   data() {
     return {
-      idFromRoute: null
+      idFromRoute: this.$route.params.id
     }
   },
   computed: {
-
-  },
-  watch: {
-    '$route'(currentRoute) {
-      this.idFromRoute = currentRoute.params.id;
+    loadedItem() {
+     // console.log('aaaaa')
+      return this.$store.getters.item(this.idFromRoute)
     }
+  },
+  mounted() {
+    console.log(this.$route.params.id)
   }
+  // watch: {
+  //   '$route'(currentRoute) {
+  //     this.idFromRoute = currentRoute.params.id;
+  //   }
+  // }
 }
 </script>
