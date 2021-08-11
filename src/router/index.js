@@ -17,6 +17,10 @@ const routes = [
   {
     path: '/camera-page',
     component: () => import('../pages/CameraPage.vue')        // lazy loading - it will not be loaded on start, but when needed
+  },
+  {
+    path: '/form-page',
+    component: () => import('../pages/FormPage.vue')        // lazy loading - it will not be loaded on start, but when needed
   }
 ]
 

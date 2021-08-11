@@ -18,7 +18,6 @@ export default {
   },
   computed: {
     loadedItem() {
-     // console.log('aaaaa')
       return this.$store.getters.item(this.idFromRoute)
     }
   },
