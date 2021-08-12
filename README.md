@@ -7,6 +7,9 @@ npm install -g @ionic/cli
 ## start a project
 ionic serve
 
+## to enable capacitor
+ionic integrations enable capacitor
+
 ----
 # Following this tutorial for basic app fucntionalities
 
