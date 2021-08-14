@@ -25,7 +25,8 @@ https://youtu.be/mQ4zmFy4d7Y?t=6407
 We must have built version of app at least once.
 ionic build
 
-
+npx cap open android
+npx cap open android
 
 
 ----
