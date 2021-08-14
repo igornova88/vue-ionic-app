@@ -1,9 +1,9 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'myApp',
-  webDir: 'dist',
+  appId: 'fr.qualigiene.v01',
+  appName: 'QualigieneApp',
+  webDir: 'public',
   bundledWebRuntime: false
 };
 

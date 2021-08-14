@@ -9,6 +9,24 @@ ionic serve
 
 ## to enable capacitor
 ionic integrations enable capacitor
+https://capacitorjs.com/docs
+npx cap init "QualigieneApp" fr.qualigiene.v01
+
+For fr.qualigiene.v01 - this is used because it need to be unique 
+And best practice is to pick something unique in the world, like domain that is relate to this app
+
+npx cap add android
+(Android studio is required)
+
+npx cap add ios
+(mac is requred)
+https://youtu.be/mQ4zmFy4d7Y?t=6407
+
+We must have built version of app at least once.
+ionic build
+
+
+
 
 ----
 # Following this tutorial for basic app fucntionalities
