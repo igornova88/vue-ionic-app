@@ -26,7 +26,8 @@ const store = createStore({
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Indian_-_Food.jpg/640px-Indian_-_Food.jpg',
           desc: "Desctiption Three"
         },
-      ] 
+      ], 
+      coctails: [],
     }
   },
   mutations: {
